@@ -19,7 +19,7 @@ export class GameplayState extends State {
         this.player = null;
         this.enemies = [];
         this.bgImage = new Image();
-        this.bgImage.src = `/src/assets/bg_${this.levelInfo.biome}.png`;
+        this.bgImage.src = `assets/bg_${this.levelInfo.biome}.png`;
 
         this.gameState = 'EXPLORE'; // EXPLORE, COMBAT_WAIT, COMBAT_ACTION
         this.currentEnemy = null;

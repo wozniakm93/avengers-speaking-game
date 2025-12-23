@@ -54,7 +54,7 @@ export class Enemy extends Entity {
 
         // Image
         this.image = new Image();
-        const src = `/src/assets/${spriteName}.png`;
+        const src = `assets/${spriteName}.png`;
         ImageUtils.makeTransparent(src).then(img => this.image = img);
 
         this.word = this.getRandomWord();

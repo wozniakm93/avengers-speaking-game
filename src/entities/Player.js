@@ -63,7 +63,7 @@ export class Player extends Entity {
 
         // Load Sprite (Standard)
         this.image = new Image();
-        this.image.src = `/src/assets/spr_${heroType}.png`;
+        this.image.src = `assets/spr_${heroType}.png`;
 
         this.bobOffset = 0;
     }

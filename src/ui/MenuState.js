@@ -52,7 +52,7 @@ export class MenuState extends State {
 
         heroes.forEach((id, index) => {
             const img = document.createElement('img');
-            img.src = `/src/assets/spr_${id}.png`;
+            img.src = `assets/spr_${id}.png`;
             img.style.height = '220px'; // Good visibility size
             img.style.objectFit = 'contain';
             img.style.opacity = '0.85'; // Slight transparency as requested

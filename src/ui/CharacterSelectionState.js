@@ -123,7 +123,7 @@ export class CharacterSelectionState extends State {
 
         // Avatar
         const avatar = document.createElement('img');
-        avatar.src = `/src/assets/spr_${id}.png`;
+        avatar.src = `assets/spr_${id}.png`;
         avatar.style.width = '100px';
         avatar.style.height = '100px';
         avatar.style.objectFit = 'contain';
