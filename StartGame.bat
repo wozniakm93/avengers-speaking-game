@@ -1,0 +1,6 @@
+@echo off
+cd /d "d:\Ai_Projects\AvengersSidescreollerWithTalking"
+echo Uruchamianie Avengers Game...
+echo Prosze czekac, otwieram przegladarke...
+call npm run dev -- --open
+pause
